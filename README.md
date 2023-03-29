@@ -15,7 +15,7 @@ given the following folder structure:
       ﹂/hello.txt (contents: "world")
 ```
 
-Running `cargo run -- test` prints "no" (different file contents).
+Running `cargo run -- /test` prints "no" (different file contents).
 
 However, the example below:
 
