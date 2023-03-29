@@ -2,7 +2,7 @@
 
 ### Detect/identify duplicate files in a (recursive) directory
 
-Write a program that takes one input, a path to a folder, and prints
+Write a program that takes one argument (a path to a folder), and prints
 whether the folder contains files with duplicate contents. For example,
 given the following folder structure:
 
