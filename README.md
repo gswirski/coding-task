@@ -15,7 +15,7 @@ given the following folder structure:
       ﹂/hello.txt (contents: "world")
 ```
 
-Running `cargo run -- /test` prints "no" (different file contents).
+Running `cargo run -- /test` prints "no duplicates found" (different file contents).
 
 However, the example below:
 
@@ -28,7 +28,7 @@ However, the example below:
    ﹂/world.txt (contents: "hello")
 ```
 
-Prints "yes" (exact same contents).
+Prints "found duplicates" (exact same contents).
 
 #### Bonus points
 
